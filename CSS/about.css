@@ -149,3 +149,103 @@ a{
     font-size: 2.5rem;
     margin: 3rem 1rem;
 }
+
+.developer__heading{
+    font-size: 4rem;
+    text-align: center;
+    margin: 5rem 0 3rem 0;
+    color: dodgerblue;
+}
+
+.developers{
+    height: auto; 
+    margin: 3rem 0; 
+    border-radius: var(--border-radius);
+    transition: 0.5s ease-in-out;
+}
+
+.developers:hover{
+    box-shadow: 0 0 40px 20px rgb(239, 237, 237); 
+}
+
+.developers img{
+    border-radius: 30px 30px 0px 0px;
+}
+
+
+.developers a{
+    text-align: center;
+    margin: 2rem;
+    font-size: 2rem;
+    color: var(--color-blue);
+    transition: 0.5s ease-in-out;
+}
+
+.developers a:hover{
+    color: dodgerblue;
+}
+
+
+/* Footer */
+
+.footer{
+    padding: 3rem;
+    background-color: #111827;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.footer ul{
+    list-style: none;
+}
+
+.footer .logo-brand a:nth-child(1){
+    font-size: 3rem;
+    font-weight: 500;
+    color: var(--color-pink);
+}
+
+.footer .quick-links li{
+    font-size: 2rem;
+    font-weight: 400;
+    margin: 1rem 0;
+    color: #fff;
+    transition: 0.5s ease-in-out;
+}
+
+.footer .quick-links li:hover{
+   color: dodgerblue;
+}
+
+.footer .icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.footer .icons .fa-brands{
+    font-size: 5rem;
+    color: #fff;
+    padding: 1rem;
+    border-radius: 8px;
+    transition: 0.5s ease-in-out;
+    border: 0;
+}
+
+.footer .icons .fa-brands:hover{
+    background-color: #fff;
+    color: #111827;
+    box-shadow: 0px 0px 5px 1px #fff;
+}
+
+
+@media screen and (min-width: 768px) {
+    .footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
